@@ -24,8 +24,8 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: none;
+    font-family: 'Playfair Display', serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -147,6 +147,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
+    background: url("#")
     background-color: #008080;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -157,10 +158,13 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
 }
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    line-height: 160%;
 }
 
 .intro .intro-body .intro-text {
@@ -174,7 +178,8 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 60px;
+        padding: 5px;
     }
 
     .intro .intro-body .intro-text {
