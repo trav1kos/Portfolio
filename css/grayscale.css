@@ -23,20 +23,28 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 25px;
     text-transform: none;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #609E82;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    color: #000000;
 }
 
 p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
-    color: #609E82;
+    color: #fff;
 }
+
+#contact h2 {
+  color: #FFF;
+}
+
+#about h2 {
+  color: #FFF;
+}
+
 
 @media(min-width:768px) {
     p {
@@ -124,7 +132,7 @@ a:focus {
     color: #fff;
 }
 
-@media(min-width:768px) {
+@media(min-width:1240px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: 0;
@@ -165,13 +173,13 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
-    line-height: 160%;
+    font-size: 150px;
+    line-height: 140%;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
-    color: #609E82;
+    color: #000000;
 }
 
 @media(min-width:768px) {
@@ -181,7 +189,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 60px;
+        font-size: 80px;
         padding: 5px;
     }
 
