@@ -82,7 +82,7 @@ a:focus {
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    background-color: #fff;
+    background-color: #000;
 }
 
 .navbar-custom .navbar-brand {
@@ -96,7 +96,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #545454;
+    color: #fff;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -105,7 +105,7 @@ a:focus {
 }
 
 .navbar-custom a {
-    color: #bdbdbd;
+    color: #609E82;
 }
 
 .navbar-custom .nav li a {
@@ -179,7 +179,7 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 150px;
     line-height: 140%;
 }
 
@@ -196,7 +196,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         text-align: center;
-        font-size: 100px;
+        font-size: 130px;
         padding: 5px;
     }
 
