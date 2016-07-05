@@ -188,7 +188,7 @@ a:focus {
     color: #000000;
 }
 
-@media(min-width:768px) {
+@media(min-width:400px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -196,7 +196,7 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         text-align: center;
-        font-size: 130px;
+        font-size: 80px;
         padding: 5px;
     }
 
